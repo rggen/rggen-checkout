@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+rggen_root = ENV['RGGEN_ROOT'] || File.join('../../', __dir__)
+
+require File.join(
+  rggen_root, 'rggen-checkout-branches', 'lib', 'rggen', 'checkout_branchs'
+)
+
+RgGen::CheckoutBranches.checkout(rggen_root)
