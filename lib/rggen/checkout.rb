@@ -3,7 +3,7 @@
 require 'yaml'
 
 module RgGen
-  module CheckoutBranches
+  module Checkout
     class << self
       def add_to_gemfile(gemfile, root)
         load_list(root).each_key do |rggen_library|
@@ -55,7 +55,7 @@ module RgGen
       end
 
       def list_path(root, repository, branch)
-        File.join(root, 'rggen-checkout-branches', repository, "#{branch}.yml")
+        File.join(root, 'rggen-checkout', repository, "#{branch}.yml")
       end
     end
   end

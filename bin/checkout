@@ -3,7 +3,7 @@
 rggen_root = ENV['RGGEN_ROOT'] || File.join('../../', __dir__)
 
 require File.join(
-  rggen_root, 'rggen-checkout-branches', 'lib', 'rggen', 'checkout_branchs'
+  rggen_root, 'rggen-checkout', 'lib', 'rggen', 'checkout'
 )
 
-RgGen::CheckoutBranches.checkout(rggen_root)
+RgGen::Checkout.checkout(rggen_root)
