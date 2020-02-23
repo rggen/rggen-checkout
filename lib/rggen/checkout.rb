@@ -23,7 +23,8 @@ module RgGen
               "https://github.com/rggen/#{rggen_library}.git"
             ].join(' ')
             puts command
-            system(command, exception: true)
+            system(command) ||
+              (error "failed to clone #{rggen_library} repositry: exit code #{$?}")
           end
         end
       end
