@@ -1,0 +1,5 @@
+rggen-devtools: master
+rggen-core: introduce_register_file_layer
+rggen-default-register-map: introduce_register_file_layer
+rggen-spreadsheet-loader: introduce_register_file_layer
+rggen-sample: introduce_register_file_layer
