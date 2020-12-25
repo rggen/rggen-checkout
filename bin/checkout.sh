@@ -30,7 +30,7 @@ while read entry; do
   checkout_repository=`echo ${entry} | cut -d : -f 1 | tr -d ' '`
   checkout_branch=`echo ${entry} | cut -d : -f 2 | tr -d ' '`
 
-  command="git clone --depth=1 --branch=${checkout_branch} https://github.com/rggen/${checkout_repository}.git"
+  command="git clone --branch=${checkout_branch} https://github.com/rggen/${checkout_repository}.git"
   echo ${command}
   ${command}
 done < ${list_file}
