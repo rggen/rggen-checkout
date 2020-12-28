@@ -15,20 +15,6 @@ module RgGen
         end
       end
 
-      def checkout(root)
-        Dir.chdir(root) do
-          load_list(root).each do |rggen_library, branch|
-            command = [
-              'git', 'clone', '--depth=1', "--branch=#{branch}",
-              "https://github.com/rggen/#{rggen_library}.git"
-            ].join(' ')
-            puts command
-            system(command) ||
-              (error "failed to clone #{rggen_library} repositry: exit code #{$?}")
-          end
-        end
-      end
-
       private
 
       def repository_root
