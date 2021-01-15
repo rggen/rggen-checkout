@@ -1,0 +1,5 @@
+rggen-devtools: master
+rggen-core: master
+rggen-default-register-map: master
+rggen-spreadsheet-loader: master
+rggen-sample: integrate_bit_field_module
