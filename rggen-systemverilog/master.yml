@@ -1,4 +1,4 @@
-rggen-core: master
-rggen-default-register-map: master
-rggen-spreadsheet-loader: master
-rggen-sample: master
+rggen/rggen-core: master
+rggen/rggen-default-register-map: master
+rggen/rggen-spreadsheet-loader: master
+rggen/rggen-sample: master

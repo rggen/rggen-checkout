@@ -1,4 +1,4 @@
-rggen-core: master
-rggen-default-register-map: master
-rggen-systemverilog: master
-rggen-sample: master
+rggen/rggen-core: master
+rggen/rggen-default-register-map: master
+rggen/rggen-systemverilog: master
+rggen/rggen-sample: master
