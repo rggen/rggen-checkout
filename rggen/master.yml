@@ -3,4 +3,6 @@ rggen/rggen-default-register-map: master
 rggen/rggen-systemverilog: master
 rggen/rggen-markdown: master
 rggen/rggen-spreadsheet-loader: master
+rggen/rggen-verilog: master
+rggen/rggen-vhdl: master
 rggen/rggen-sample: master
