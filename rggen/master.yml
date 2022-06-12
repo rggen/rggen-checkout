@@ -5,4 +5,5 @@ rggen/rggen-markdown: master
 rggen/rggen-spreadsheet-loader: master
 rggen/rggen-verilog: master
 rggen/rggen-vhdl: master
+rggen/rggen-c-header: master
 rggen/rggen-sample: master
