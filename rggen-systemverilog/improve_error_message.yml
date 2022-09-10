@@ -1,0 +1,4 @@
+rggen/rggen-core: improve_error_message
+rggen/rggen-default-register-map: improve_error_message
+rggen/rggen-spreadsheet-loader: improve_error_message
+rggen/rggen-sample: master
