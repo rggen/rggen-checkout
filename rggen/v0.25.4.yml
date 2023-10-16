@@ -1,0 +1,6 @@
+rggen/rggen-core: v0.25.2
+rggen/rggen-default-register-map: v0.25.1
+rggen/rggen-systemverilog: v0.25.1
+rggen/rggen-markdown: v0.21.0
+rggen/rggen-spreadsheet-loader: v0.20.0
+rggen/rggen-sample: v0.25.4
