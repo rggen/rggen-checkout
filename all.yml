@@ -6,6 +6,7 @@ rggen/rggen-spreadsheet-loader: master
 rggen/rggen-duh: master
 rggen/rggen-verilog: master
 rggen/rggen-vhdl: master
+rggen/rggen-veryl: master
 rggen/rggen-c-header: master
 rggen/rggen-sample: master
 rggen/rggen: master
