@@ -7,5 +7,6 @@ rggen/rggen-verilog: master
 rggen/rggen-vhdl: master
 rggen/rggen-veryl: master
 rggen/rggen-c-header: master
+rggen/rggen-systemrdl: master
 rggen/rggen-sample: master
 rggen/rggen: master
